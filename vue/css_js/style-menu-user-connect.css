@@ -1,0 +1,64 @@
+.btn-group > .dropdown-toggle {
+    color:#f6f6f6;
+    background-color:#fd4709;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding:0px;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+
+    background-color: #fd4709;
+    border:0px;
+}
+.open>.dropdown-menu {
+    border:1px #1dd800 solid;
+    text-align: center;
+    padding: 0px;
+    margin: 3px;
+}
+.open>.dropdown-menu >li>a{
+    margin: 0px;
+    padding: 7px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    float: left;
+    width: 75%;
+    padding-left: 7px;
+    padding-right: 7px;
+    list-style: none;
+    text-align: center;
+.box-shadow(0 6px 12px rgba(0,0,0,.175));
+    background-clip: padding-box;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fd4709;
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #fd4709;
+}
+.menu-user-connect{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+ion-icon {
+    font-size: 35px;
+    color: white;
+}
